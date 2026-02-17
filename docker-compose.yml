@@ -1,0 +1,7 @@
+services:
+  spor-app:
+    build: .
+    container_name: spor-app
+    restart: always
+    ports:
+      - "3019:80"
