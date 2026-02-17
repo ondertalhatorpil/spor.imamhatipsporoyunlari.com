@@ -1,6 +1,6 @@
 services:
   spor-app:
-    build: .
+    build: ./frontend
     container_name: spor-app
     restart: always
     ports:
